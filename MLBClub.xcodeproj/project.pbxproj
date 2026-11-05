@@ -1,0 +1,234 @@
+// !$*UTF8*$!
+{
+    archiveVersion = 1;
+    classes = {};
+    objectVersion = 56;
+    objects = {
+        F429A64397EA53749752B236 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ClubStyle.swift"; sourceTree = "<group>"; };
+        784F8112C1265F00E0FF2D56 = { isa = PBXBuildFile; fileRef = F429A64397EA53749752B236; };
+        B230C4CA1F0A17F492595515 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MLBClubApp.swift"; sourceTree = "<group>"; };
+        B41A66F19749533B1990DF9F = { isa = PBXBuildFile; fileRef = B230C4CA1F0A17F492595515; };
+        8F833F567ED4FAC4246BE887 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GameModel.swift"; sourceTree = "<group>"; };
+        A5118249A3ACE1368E7B69C9 = { isa = PBXBuildFile; fileRef = 8F833F567ED4FAC4246BE887; };
+        9FD399E516A1A1338D5B822A = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ItemModel.swift"; sourceTree = "<group>"; };
+        7936953DDEE998FEE8153D5E = { isa = PBXBuildFile; fileRef = 9FD399E516A1A1338D5B822A; };
+        77E87D7FDEF1443BA495DED9 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SessionStore.swift"; sourceTree = "<group>"; };
+        E75C73F9CCB9E2A556EF6561 = { isa = PBXBuildFile; fileRef = 77E87D7FDEF1443BA495DED9; };
+        4C2E517F43EE1E6AAA97DF29 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AuthViewModels.swift"; sourceTree = "<group>"; };
+        E23466062D1EA2FE4D7853F3 = { isa = PBXBuildFile; fileRef = 4C2E517F43EE1E6AAA97DF29; };
+        848CB2B89D1BB65210AC204D = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HomeViewModel.swift"; sourceTree = "<group>"; };
+        C9C50CC59809A67D61E27B38 = { isa = PBXBuildFile; fileRef = 848CB2B89D1BB65210AC204D; };
+        0D7ADDA1C5839E94C0C89285 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ScheduleViewModel.swift"; sourceTree = "<group>"; };
+        DE16243EDAC4139DBF3EEDB9 = { isa = PBXBuildFile; fileRef = 0D7ADDA1C5839E94C0C89285; };
+        44AEF9959B16415EAAB8028F = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DetailView.swift"; sourceTree = "<group>"; };
+        6BE22E79401B6577E4E532A8 = { isa = PBXBuildFile; fileRef = 44AEF9959B16415EAAB8028F; };
+        136F0C9723A44716D231249A = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HomeView.swift"; sourceTree = "<group>"; };
+        25F01E0BC35074FFA70EFEA9 = { isa = PBXBuildFile; fileRef = 136F0C9723A44716D231249A; };
+        186D683C9196D15347D059C0 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LoginView.swift"; sourceTree = "<group>"; };
+        14129290A29EA1233D7735EE = { isa = PBXBuildFile; fileRef = 186D683C9196D15347D059C0; };
+        5A39AEA306841562C34BF075 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RegisterView.swift"; sourceTree = "<group>"; };
+        A906C1B48EAD9FADD7ADE36B = { isa = PBXBuildFile; fileRef = 5A39AEA306841562C34BF075; };
+        D93295BFB6B136632DBF35CE = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SplashView.swift"; sourceTree = "<group>"; };
+        370516CE7AA81966AA29641F = { isa = PBXBuildFile; fileRef = D93295BFB6B136632DBF35CE; };
+        A8AFD241F5726AA33C1AC0F0 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TeamScheduleView.swift"; sourceTree = "<group>"; };
+        32843F6EBA324031AEF98291 = { isa = PBXBuildFile; fileRef = A8AFD241F5726AA33C1AC0F0; };
+        AEEBD318720E3801F16357EE = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MLBClubTests.swift"; sourceTree = "<group>"; };
+        AB372328011BC1DE0A23EAA9 = { isa = PBXBuildFile; fileRef = AEEBD318720E3801F16357EE; };
+        8BF729FFE074CAEE622C0292 = { isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+        214FAD66617094FC1E2341C1 = { isa = PBXBuildFile; fileRef = 8BF729FFE074CAEE622C0292; };
+        81F31879437340D5CD6ED968 = { isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MLBClub.app; sourceTree = BUILT_PRODUCTS_DIR; };
+        64321F40F98F9F79FEC83C37 = { isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MLBClubTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+        A2A9809DAF0AEE6960B34B37 = { isa = PBXGroup; children = (
+                8F833F567ED4FAC4246BE887,
+                9FD399E516A1A1338D5B822A,
+                77E87D7FDEF1443BA495DED9,
+            ); path = Models; sourceTree = "<group>"; };
+        03D812B77F262A40416809E8 = { isa = PBXGroup; children = (
+                4C2E517F43EE1E6AAA97DF29,
+                848CB2B89D1BB65210AC204D,
+                0D7ADDA1C5839E94C0C89285,
+            ); path = ViewModels; sourceTree = "<group>"; };
+        6C923F6D92369A43B16924F4 = { isa = PBXGroup; children = (
+                44AEF9959B16415EAAB8028F,
+                136F0C9723A44716D231249A,
+                186D683C9196D15347D059C0,
+                5A39AEA306841562C34BF075,
+                D93295BFB6B136632DBF35CE,
+                A8AFD241F5726AA33C1AC0F0,
+            ); path = Views; sourceTree = "<group>"; };
+        E0A9013D029341D8BBC2D0B2 = { isa = PBXGroup; children = (
+                F429A64397EA53749752B236,
+            ); path = Design; sourceTree = "<group>"; };
+        E17E80AD8E2103CF3FC3FD96 = { isa = PBXGroup; children = (
+                A2A9809DAF0AEE6960B34B37,
+                03D812B77F262A40416809E8,
+                6C923F6D92369A43B16924F4,
+                E0A9013D029341D8BBC2D0B2,
+                B230C4CA1F0A17F492595515,
+                8BF729FFE074CAEE622C0292,
+            ); path = MLBClub; sourceTree = "<group>"; };
+        781CAA6738A604344AE86EE3 = { isa = PBXGroup; children = (
+                AEEBD318720E3801F16357EE,
+            ); path = MLBClubTests; sourceTree = "<group>"; };
+        0A3E27B8CA818264D75C8D81 = { isa = PBXGroup; children = (
+                81F31879437340D5CD6ED968,
+                64321F40F98F9F79FEC83C37,
+            ); name = Products; sourceTree = "<group>"; };
+        0D6E4079E36703EBD37C0072 = { isa = PBXGroup; children = (
+                E17E80AD8E2103CF3FC3FD96,
+                781CAA6738A604344AE86EE3,
+                0A3E27B8CA818264D75C8D81,
+            ); sourceTree = "<group>"; };
+        6BAB02B549A96CC50D0CA977 = { isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (
+                784F8112C1265F00E0FF2D56,
+                B41A66F19749533B1990DF9F,
+                A5118249A3ACE1368E7B69C9,
+                7936953DDEE998FEE8153D5E,
+                E75C73F9CCB9E2A556EF6561,
+                E23466062D1EA2FE4D7853F3,
+                C9C50CC59809A67D61E27B38,
+                DE16243EDAC4139DBF3EEDB9,
+                6BE22E79401B6577E4E532A8,
+                25F01E0BC35074FFA70EFEA9,
+                14129290A29EA1233D7735EE,
+                A906C1B48EAD9FADD7ADE36B,
+                370516CE7AA81966AA29641F,
+                32843F6EBA324031AEF98291,
+            ); runOnlyForDeploymentPostprocessing = 0; };
+        DAB7151652C25D9B83C5FD83 = { isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (
+                214FAD66617094FC1E2341C1,
+            ); runOnlyForDeploymentPostprocessing = 0; };
+        093A8EEF16CCA81BE763994D = { isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+        798B65A4B63A4D08FDD4C755 = { isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (
+                AB372328011BC1DE0A23EAA9,
+            ); runOnlyForDeploymentPostprocessing = 0; };
+        14F0309E5479D955E2A2D11E = { isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (
+            ); runOnlyForDeploymentPostprocessing = 0; };
+        497639E2F38DB3F946CE62A2 = { isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+        1241936D4DD3AAD68FE7BFBD = { isa = PBXContainerItemProxy; containerPortal = 244210E48437B6556980A702; proxyType = 1; remoteGlobalIDString = A172CEDCAE47474B615C54D5; remoteInfo = MLBClub; };
+        F26350DAFE3F19AABFD69AC4 = { isa = PBXTargetDependency; target = A172CEDCAE47474B615C54D5; targetProxy = 1241936D4DD3AAD68FE7BFBD; };
+        73EBF6644258C120893E685D = { isa = XCBuildConfiguration; buildSettings = {
+                ALWAYS_SEARCH_USER_PATHS = "NO";
+                CLANG_ENABLE_MODULES = "YES";
+                CLANG_ENABLE_OBJC_ARC = "YES";
+                CLANG_WARN_BOOL_CONVERSION = "YES";
+                CLANG_WARN_CONSTANT_CONVERSION = "YES";
+                CLANG_WARN_INT_CONVERSION = "YES";
+                GCC_C_LANGUAGE_STANDARD = "gnu17";
+                IPHONEOS_DEPLOYMENT_TARGET = "16.0";
+                SDKROOT = "iphoneos";
+                SWIFT_VERSION = "5.0";
+                SWIFT_STRICT_CONCURRENCY = "minimal";
+                SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+                DEBUG_INFORMATION_FORMAT = "dwarf";
+                ENABLE_TESTABILITY = "YES";
+                SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+                ONLY_ACTIVE_ARCH = "YES";
+            }; name = Debug; };
+        0B0C687DF8B6B8DC790B519C = { isa = XCBuildConfiguration; buildSettings = {
+                ALWAYS_SEARCH_USER_PATHS = "NO";
+                CLANG_ENABLE_MODULES = "YES";
+                CLANG_ENABLE_OBJC_ARC = "YES";
+                CLANG_WARN_BOOL_CONVERSION = "YES";
+                CLANG_WARN_CONSTANT_CONVERSION = "YES";
+                CLANG_WARN_INT_CONVERSION = "YES";
+                GCC_C_LANGUAGE_STANDARD = "gnu17";
+                IPHONEOS_DEPLOYMENT_TARGET = "16.0";
+                SDKROOT = "iphoneos";
+                SWIFT_VERSION = "5.0";
+                SWIFT_STRICT_CONCURRENCY = "minimal";
+                SWIFT_OPTIMIZATION_LEVEL = "-O";
+                DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+            }; name = Release; };
+        9879E227F5AD614B3D33074F = { isa = XCConfigurationList; buildConfigurations = (
+                73EBF6644258C120893E685D,
+                0B0C687DF8B6B8DC790B519C,
+            ); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+        B00CCDD09424E369308D67FA = { isa = XCBuildConfiguration; buildSettings = {
+                ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon";
+                CODE_SIGN_STYLE = "Automatic";
+                CURRENT_PROJECT_VERSION = "1";
+                GENERATE_INFOPLIST_FILE = "YES";
+                INFOPLIST_KEY_CFBundleDisplayName = "MLB Club";
+                INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.sports";
+                INFOPLIST_KEY_UIApplicationSceneManifest_Generation = "YES";
+                INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = "YES";
+                INFOPLIST_KEY_UILaunchScreen_Generation = "YES";
+                INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+                INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+                MARKETING_VERSION = "1.0";
+                PRODUCT_BUNDLE_IDENTIFIER = "com.josepurizaga.MLBClub";
+                PRODUCT_NAME = "$(TARGET_NAME)";
+                SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+                SUPPORTS_MACCATALYST = "NO";
+                SWIFT_EMIT_LOC_STRINGS = "YES";
+                TARGETED_DEVICE_FAMILY = "1,2";
+            }; name = Debug; };
+        1B104479E55E37CF8A63CBDF = { isa = XCBuildConfiguration; buildSettings = {
+                ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon";
+                CODE_SIGN_STYLE = "Automatic";
+                CURRENT_PROJECT_VERSION = "1";
+                GENERATE_INFOPLIST_FILE = "YES";
+                INFOPLIST_KEY_CFBundleDisplayName = "MLB Club";
+                INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.sports";
+                INFOPLIST_KEY_UIApplicationSceneManifest_Generation = "YES";
+                INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = "YES";
+                INFOPLIST_KEY_UILaunchScreen_Generation = "YES";
+                INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+                INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+                MARKETING_VERSION = "1.0";
+                PRODUCT_BUNDLE_IDENTIFIER = "com.josepurizaga.MLBClub";
+                PRODUCT_NAME = "$(TARGET_NAME)";
+                SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+                SUPPORTS_MACCATALYST = "NO";
+                SWIFT_EMIT_LOC_STRINGS = "YES";
+                TARGETED_DEVICE_FAMILY = "1,2";
+            }; name = Release; };
+        61571F3444EB024BEA54E0A2 = { isa = XCConfigurationList; buildConfigurations = (
+                B00CCDD09424E369308D67FA,
+                1B104479E55E37CF8A63CBDF,
+            ); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+        DD3F495F7D6A5AA1C1769021 = { isa = XCBuildConfiguration; buildSettings = {
+                BUNDLE_LOADER = "$(TEST_HOST)";
+                CODE_SIGN_STYLE = "Automatic";
+                GENERATE_INFOPLIST_FILE = "YES";
+                PRODUCT_BUNDLE_IDENTIFIER = "com.josepurizaga.MLBClubTests";
+                PRODUCT_NAME = "$(TARGET_NAME)";
+                TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MLBClub.app/MLBClub";
+                TARGETED_DEVICE_FAMILY = "1,2";
+                SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+            }; name = Debug; };
+        E670BC2FFE794172EBC92AE3 = { isa = XCBuildConfiguration; buildSettings = {
+                BUNDLE_LOADER = "$(TEST_HOST)";
+                CODE_SIGN_STYLE = "Automatic";
+                GENERATE_INFOPLIST_FILE = "YES";
+                PRODUCT_BUNDLE_IDENTIFIER = "com.josepurizaga.MLBClubTests";
+                PRODUCT_NAME = "$(TARGET_NAME)";
+                TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MLBClub.app/MLBClub";
+                TARGETED_DEVICE_FAMILY = "1,2";
+                SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+            }; name = Release; };
+        5629210D75042E670BBE3816 = { isa = XCConfigurationList; buildConfigurations = (
+                DD3F495F7D6A5AA1C1769021,
+                E670BC2FFE794172EBC92AE3,
+            ); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+        A172CEDCAE47474B615C54D5 = { isa = PBXNativeTarget; buildConfigurationList = 61571F3444EB024BEA54E0A2; buildPhases = (
+                6BAB02B549A96CC50D0CA977,
+                093A8EEF16CCA81BE763994D,
+                DAB7151652C25D9B83C5FD83,
+            ); buildRules = (); dependencies = (
+            ); name = MLBClub; productName = MLBClub; productReference = 81F31879437340D5CD6ED968; productType = "com.apple.product-type.application"; };
+        9F86D081884C7D659A2FEAA0 = { isa = PBXNativeTarget; buildConfigurationList = 5629210D75042E670BBE3816; buildPhases = (
+                798B65A4B63A4D08FDD4C755,
+                497639E2F38DB3F946CE62A2,
+                14F0309E5479D955E2A2D11E,
+            ); buildRules = (); dependencies = (
+                F26350DAFE3F19AABFD69AC4,
+            ); name = MLBClubTests; productName = MLBClubTests; productReference = 64321F40F98F9F79FEC83C37; productType = "com.apple.product-type.bundle.unit-test"; };
+        244210E48437B6556980A702 = { isa = PBXProject; attributes = { BuildIndependentTargetsInParallel = YES; LastUpgradeCheck = 1430; TargetAttributes = { A172CEDCAE47474B615C54D5 = { CreatedOnToolsVersion = 14.3; }; 9F86D081884C7D659A2FEAA0 = { CreatedOnToolsVersion = 14.3; TestTargetID = A172CEDCAE47474B615C54D5; }; }; }; buildConfigurationList = 9879E227F5AD614B3D33074F; compatibilityVersion = "Xcode 14.0"; developmentRegion = es; hasScannedForEncodings = 0; knownRegions = (es, en, Base); mainGroup = 0D6E4079E36703EBD37C0072; productRefGroup = 0A3E27B8CA818264D75C8D81; projectDirPath = ""; projectRoot = ""; targets = (
+                A172CEDCAE47474B615C54D5,
+                9F86D081884C7D659A2FEAA0,
+            ); };
+    };
+    rootObject = 244210E48437B6556980A702;
+}
